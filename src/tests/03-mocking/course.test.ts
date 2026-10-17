@@ -47,7 +47,7 @@ describe('ทดสอบคอร์สเรียน', () => {
        server.use(
           http.get(API_URL + '/course', () => new HttpResponse(null, { status: 500 }))
        )
-       await expect(getCourses()).rejects.toThrow('Server error: 500') 
+       await expect(getCourses()).rejects.toThrow('Server error: 500')
     })
 
 })
