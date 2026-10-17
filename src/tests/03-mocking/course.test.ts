@@ -1,7 +1,7 @@
 import { http, HttpResponse } from 'msw'
 import { setupServer } from 'msw/node'
 
-import { describe, expect, test, vi, afterAll, beforeAll, afterEach } from 'vitest'
+import { describe, expect, test, afterAll, beforeAll, afterEach } from 'vitest'
 import { API_URL, getCourses } from '../../03-mocking/course'
 
 // 1. เตรียมข้อมูลปลอม
